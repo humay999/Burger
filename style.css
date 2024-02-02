@@ -187,23 +187,23 @@ header .btn {
 
 #howit h1 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 50px;
   color: #36b3bd;
   margin-bottom: 60px;
 }
 #howit .box .imgbox {
-  width: 350px;
+  width: 300px;
 }
 #howit .box .textbox {
-  padding: 35px 55px;
+  padding: 24px 46px;
 }
 #howit .box .textbox h2 {
   font-weight: 700;
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 9px;
 }
 #howit .box .textbox h4 {
-  font-size: 20px;
+  font-size: 18px;
   color: #676f8b;
   line-height: 1.3;
 }
@@ -215,7 +215,7 @@ header .btn {
     font-size: 20px;
   }
   #howit .box .textbox h4 {
-    width: 400px;
+    width: 358px;
   }
   #howit .col-lg-4 {
     padding: 30px 0;
@@ -226,7 +226,7 @@ header .btn {
     font-size: 50px;
   }
   #howit .box .textbox h4 {
-    width: 271px;
+    width: 241px;
   }
 }
 
