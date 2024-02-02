@@ -234,16 +234,15 @@ header .btn {
   background: #f2f6fa;
 }
 #Browse .textbox {
-  width: 500px;
-  text-align: center;
+  width: 419px;
 }
 #Browse .textbox h1 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 50px;
   color: #3cc1d8;
 }
 #Browse .textbox h4 {
-  font-size: 20px;
+  font-size: 18px;
   color: rgba(36, 48, 68, 0.5215686275);
   margin: 20px 0;
   line-height: 1.2;
@@ -253,9 +252,9 @@ header .btn {
   text-decoration: underline;
 }
 #Browse .btn {
-  font-size: 16px;
+  font-size: 13px;
   border: 0.5px solid #bdbdbd;
-  padding: 15px 46px;
+  padding: 10px 41px;
   margin: 0 20px;
   border-radius: 5px;
 }
@@ -266,11 +265,11 @@ header .btn {
 #Browse .box {
   background: white;
   margin-bottom: 20px;
-  padding: 30px;
+  padding: 15px;
   border-radius: 5px;
 }
 #Browse .box .imgbox {
-  width: 150px;
+  width: 130px;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -280,16 +279,16 @@ header .btn {
   margin-left: 20px;
 }
 #Browse .box .textbox .minibox h2 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
 }
 #Browse .box .textbox .minibox h5 {
   color: #3cc1d8;
-  font-size: 18px;
+  font-size: 15px;
 }
 #Browse .box .textbox p {
   margin: 15px 0;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.2;
   color: rgba(35, 47, 66, 0.5215686275);
 }
@@ -309,6 +308,32 @@ header .btn {
 #Browse .big {
   padding: 17px 53px;
   margin-top: 50px;
+}
+@media screen and (max-width: 767px) {
+  #Browse .cbg .btn {
+    padding: 8px 80px;
+  }
+  #Browse .box, #Browse .minibox {
+    display: flex;
+    flex-direction: column;
+  }
+  #Browse .box .imgbox, #Browse .minibox .imgbox {
+    width: 200px;
+  }
+  #Browse .box .textbox, #Browse .minibox .textbox {
+    width: 200px;
+    margin-left: 0;
+  }
+  #Browse .box .minibox h2, #Browse .minibox .minibox h2 {
+    margin: 10px 0;
+  }
+  #Browse .big {
+    padding: 12px 45px;
+    margin-top: 50px;
+  }
+  #Browse .big h3 {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 401px) {
   #Browse .textbox h4 {
