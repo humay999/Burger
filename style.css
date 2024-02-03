@@ -310,8 +310,23 @@ header .btn {
   margin-top: 50px;
 }
 @media screen and (max-width: 767px) {
+  #Browse .cbg {
+    flex-flow: wrap;
+  }
   #Browse .cbg .btn {
     padding: 8px 80px;
+  }
+  #Browse .cbg .btn h3 {
+    font-size: 20px;
+  }
+  #Browse .cbg .drnk {
+    margin-top: 10px;
+  }
+  #Browse .bgc {
+    padding: 7px 78px;
+  }
+  #Browse .box {
+    padding: 20px;
   }
   #Browse .box, #Browse .minibox {
     display: flex;
@@ -333,6 +348,22 @@ header .btn {
   }
   #Browse .big h3 {
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #Browse .cbg {
+    flex-direction: column;
+  }
+  #Browse .cbg .btn, #Browse .cbg .bgc {
+    padding: 8px 90px;
+    margin: 8px 0;
+  }
+  #Browse .box .imgbox {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  #Browse .box .textbox {
+    width: 392px;
   }
 }
 @media screen and (max-width: 401px) {
