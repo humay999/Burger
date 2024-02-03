@@ -363,16 +363,17 @@ header .btn {
 }
 
 #checkout .imgbox {
-  width: 600px;
+  width: 550px;
 }
 #checkout .textbox h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   color: #36b3bd;
+  margin-right: 20px;
 }
 #checkout .textbox h5 {
   color: #676f8b;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.2;
   margin: 20px 0;
 }
@@ -382,6 +383,7 @@ header .btn {
   background-color: #38b6c1;
   padding: 13px 34px;
   border-radius: 5px;
+  margin-top: 20px;
 }
 @media screen and (max-width: 991px) {
   #checkout .col-lg-6 {
