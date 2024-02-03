@@ -11,23 +11,36 @@ header
             color: #74bebc
     .btn
         display: none
-    .button
-        display: none
     @media screen and ( max-width: 991px)
+        .imgbox
+            width: 35px
         .btn
             display: block
-            border-radius: 2px
-            background-color: #cfcdcd
-            width: 30px
-            height: 30px
+        .shp
+            display: none
+        .icon
+            width: 40px
+            height: 40px
+            color: #252323
+            background-color: #e6dfdf
         nav
             display: none
-        .button
-            display: none
     @media screen and ( max-width: 401px)
-        .button
-            display: block
+        .imgbox
+            width: 35px
+        .btn
+            display: flex
+            flex-direction: row
+        .icon
+            display: flex
+            justify-content: center
+            align-items: center
             border-radius: 2px
-            background-color: #398699
-            width: 30px
-            height: 30px
+            background-color: #e6dfdf
+            width: 40px
+            height: 40px
+            margin-left: 10px
+            color: #252323
+        .shp
+            color: #ffff
+            background-color: #80c4eb
