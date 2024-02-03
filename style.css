@@ -365,6 +365,9 @@ header .btn {
 #checkout .imgbox {
   width: 550px;
 }
+#checkout .textbox {
+  margin: 0 40px 0 0;
+}
 #checkout .textbox h1 {
   font-size: 50px;
   font-weight: 700;
@@ -399,7 +402,7 @@ header .btn {
     width: 365px;
   }
   #checkout .textbox {
-    width: 321px;
+    margin: 0 40px;
   }
   #checkout .textbox h1 {
     font-size: 50px;
