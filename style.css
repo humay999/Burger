@@ -523,9 +523,6 @@ header .btn {
   }
 }
 
-#business .busin {
-  overflow: hidden;
-}
 #business .textbox {
   width: 100%;
 }
@@ -544,4 +541,14 @@ header .btn {
 }
 #business .bgc {
   background-color: #3cc1d8;
+}
+@media screen and (max-width: 991px) {
+  #business .textbox {
+    padding-top: 45px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  #business .textbox h1 {
+    font-size: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */
