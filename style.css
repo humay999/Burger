@@ -31,6 +31,9 @@ header nav .home-color {
 header .btn {
   display: none;
 }
+header .button {
+  display: none;
+}
 @media screen and (max-width: 991px) {
   header .btn {
     display: block;
@@ -41,6 +44,18 @@ header .btn {
   }
   header nav {
     display: none;
+  }
+  header .button {
+    display: none;
+  }
+}
+@media screen and (max-width: 401px) {
+  header .button {
+    display: block;
+    border-radius: 2px;
+    background-color: #398699;
+    width: 30px;
+    height: 30px;
   }
 }
 
