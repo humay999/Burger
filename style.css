@@ -116,30 +116,28 @@ header .btn {
 }
 
 #Browse {
-  background: #f2f6fa;
+  background-color: #f5fbfc;
 }
-#Browse .textbox {
-  width: 419px;
-}
-#Browse .textbox h1 {
+#Browse .col-md-12 .textbox h1 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 60px;
   color: #3cc1d8;
 }
-#Browse .textbox h4 {
-  font-size: 18px;
-  color: rgba(36, 48, 68, 0.5215686275);
+#Browse .col-md-12 .textbox h4 {
+  font-size: 20px;
+  color: #6c7480;
   margin: 20px 0;
   line-height: 1.2;
 }
-#Browse .textbox h4 span {
+#Browse .col-md-12 .textbox h4 span {
   color: #3cc1d8;
-  text-decoration: underline;
+  text-decoration-line: underline;
 }
-#Browse .btn {
-  font-size: 13px;
+#Browse .col-12 .box .btn {
+  font-size: 18px;
   border: 0.5px solid #bdbdbd;
-  padding: 10px 41px;
+  padding: 15px;
+  width: 150px;
   margin: 0 20px;
   border-radius: 5px;
 }
@@ -147,185 +145,90 @@ header .btn {
   background-color: #3cc1d8;
   color: white;
 }
-#Browse .box {
-  background: white;
-  margin-bottom: 20px;
-  padding: 15px;
-  border-radius: 5px;
+#Browse .col-lg-6 .box {
+  background-color: #ffffff;
+  padding: 20px;
 }
-#Browse .box .imgbox {
-  width: 130px;
-  overflow: hidden;
+#Browse .col-lg-6 .box .imgbox {
   border-radius: 10px;
 }
-#Browse .box .textbox {
-  text-align: left;
-  width: auto;
-  margin-left: 20px;
-}
-#Browse .box .textbox .minibox h2 {
-  font-size: 20px;
+#Browse .col-lg-6 .box .textbox .minibox h2 {
+  font-size: 22px;
   font-weight: 700;
 }
-#Browse .box .textbox .minibox h5 {
+#Browse .col-lg-6 .box .textbox .minibox h5 {
   color: #3cc1d8;
-  font-size: 15px;
+  font-size: 18px;
 }
-#Browse .box .textbox p {
+#Browse .col-lg-6 .box .textbox p {
   margin: 15px 0;
-  font-size: 16px;
   line-height: 1.2;
   color: rgba(35, 47, 66, 0.5215686275);
 }
-#Browse .box .textbox .add {
-  display: flex;
-}
-#Browse .box .textbox .add input {
+#Browse .col-lg-6 .box .textbox .add input {
   border: 1px solid #e1e1e1;
-  background-color: #e9e9e9;
+  background-color: #f5fbfc;
   width: 50px;
+  margin-right: 10px;
 }
-#Browse .box .textbox .add .btn {
+#Browse .col-lg-6 .box .textbox .add .btn {
   background-color: #3cc1d8;
   color: white;
   padding: 7px 20px;
 }
-#Browse .big {
+#Browse .menu {
   padding: 17px 53px;
   margin-top: 50px;
 }
-@media screen and (max-width: 767px) {
-  #Browse .cbg {
-    flex-flow: wrap;
-  }
-  #Browse .cbg .btn {
-    padding: 8px 80px;
-  }
-  #Browse .cbg .btn h3 {
-    font-size: 20px;
-  }
-  #Browse .cbg .drnk {
-    margin-top: 10px;
-  }
-  #Browse .bgc {
-    padding: 7px 78px;
-  }
-  #Browse .box {
-    padding: 20px;
-  }
-  #Browse .box, #Browse .minibox {
-    display: flex;
-    flex-direction: column;
-  }
-  #Browse .box .imgbox, #Browse .minibox .imgbox {
-    width: 200px;
-  }
-  #Browse .box .textbox, #Browse .minibox .textbox {
-    width: 200px;
-    margin-left: 0;
-  }
-  #Browse .box .minibox h2, #Browse .minibox .minibox h2 {
-    margin: 10px 0;
-  }
-  #Browse .big {
-    padding: 12px 45px;
-    margin-top: 50px;
-  }
-  #Browse .big h3 {
-    font-size: 15px;
+@media (min-width: 992px) {
+  #Browse .imgbox {
+    align-self: center;
+    width: 150px;
   }
 }
-@media screen and (max-width: 480px) {
-  #Browse .cbg {
-    flex-direction: column;
-  }
-  #Browse .cbg .btn, #Browse .cbg .bgc {
-    padding: 8px 90px;
-    margin: 8px 0;
-  }
-  #Browse .box .imgbox {
-    width: 400px;
-    margin-bottom: 20px;
-  }
-  #Browse .box .textbox {
-    width: 392px;
+@media (min-width: 768px) and (max-width: 991px) {
+  #Browse .imgbox {
+    align-self: flex-start;
+    width: 125px;
   }
 }
-@media screen and (max-width: 401px) {
-  #Browse .textbox h4 {
-    width: 328px;
+@media (min-width: 576px) and (max-width: 767px) {
+  #Browse .col-12 .box {
+    width: 100%;
   }
-  #Browse .cbg {
-    display: flex;
-    flex-direction: column;
+  #Browse .col-12 .box .btn {
+    width: 225px;
+    margin: 5px 15px;
   }
-  #Browse .cbg .btn {
-    margin-bottom: 10px;
+}
+@media (max-width: 575px) {
+  #Browse .imgbox {
+    align-self: start;
+    width: 100%;
   }
-  #Browse .box, #Browse .minibox {
-    display: flex;
-    flex-direction: column;
-  }
-  #Browse .box .imgbox, #Browse .minibox .imgbox {
-    width: 310px;
-  }
-  #Browse .box .textbox, #Browse .minibox .textbox {
-    width: 310px;
-    margin-left: 0;
-  }
-  #Browse .box .minibox h2, #Browse .minibox .minibox h2 {
-    margin: 10px 0;
+  #Browse .col-12 .box .btn {
+    margin: 10px 20px;
+    width: 100%;
   }
 }
 
-#checkout .imgbox {
-  width: 550px;
-}
-#checkout .textbox {
-  margin: 0 40px 0 0;
-}
-#checkout .textbox h1 {
-  font-size: 50px;
+#checkout h1 {
+  font-size: 48px;
   font-weight: 700;
   color: #36b3bd;
-  margin-right: 20px;
 }
-#checkout .textbox h5 {
+#checkout h5 {
   color: #676f8b;
-  font-size: 18px;
-  line-height: 1.2;
-  margin: 20px 0;
+  font-size: 20px;
+  margin: 25px 0 50px 0;
+  line-height: 1.3;
 }
-#checkout .textbox .btn {
+#checkout .btn {
   color: white;
   font-size: 20px;
   background-color: #38b6c1;
   padding: 13px 34px;
   border-radius: 5px;
-  margin-top: 20px;
-}
-@media screen and (max-width: 991px) {
-  #checkout .col-lg-6 {
-    padding: 50px 0;
-  }
-  #checkout .textbox {
-    text-align: center;
-    width: 400px;
-  }
-}
-@media screen and (max-width: 401px) {
-  #checkout .imgbox {
-    width: 365px;
-  }
-  #checkout .textbox {
-    margin: 0 40px;
-  }
-  #checkout .textbox h1 {
-    font-size: 50px;
-  }
-  #checkout .textbox .btn {
-    padding: 10px 50px;
-  }
 }
 
 #call {
