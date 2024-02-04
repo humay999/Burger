@@ -18,10 +18,10 @@ header {
   padding: 20px 0;
 }
 header .imgbox {
-  width: 30px;
+  width: 40px;
 }
 header nav a {
-  font-size: 18px;
+  font-size: 20px;
   color: #8c8999;
   margin-right: 30px;
 }
@@ -29,50 +29,16 @@ header nav .home-color {
   color: #74bebc;
 }
 header .btn {
-  display: none;
+  background-color: #c9c2c2;
 }
 @media screen and (max-width: 991px) {
-  header .imgbox {
-    width: 35px;
-  }
-  header .btn {
-    display: block;
-  }
-  header .shp {
-    display: none;
-  }
-  header .icon {
-    width: 40px;
-    height: 40px;
-    color: #252323;
-    background-color: #e6dfdf;
-  }
   header nav {
     display: none;
   }
 }
-@media screen and (max-width: 401px) {
-  header .imgbox {
-    width: 35px;
-  }
+@media screen and (min-width: 992px) {
   header .btn {
-    display: flex;
-    flex-direction: row;
-  }
-  header .icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 2px;
-    background-color: #e6dfdf;
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-    color: #252323;
-  }
-  header .shp {
-    color: white;
-    background-color: #80c4eb;
+    display: none;
   }
 }
 
