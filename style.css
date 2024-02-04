@@ -115,6 +115,9 @@ header .btn {
   line-height: 1.3;
 }
 
+#Browse {
+  background-color: #f5fbfc;
+}
 #Browse .col-md-12 .textbox h1 {
   font-weight: 700;
   font-size: 60px;
@@ -130,7 +133,7 @@ header .btn {
   color: #3cc1d8;
   text-decoration: underline;
 }
-#Browse .col-md-12 .box .btn {
+#Browse .col-12 .box .btn {
   font-size: 18px;
   border: 0.5px solid #bdbdbd;
   padding: 15px;
@@ -190,10 +193,10 @@ header .btn {
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-  #Browse .col-md-12 .box {
+  #Browse .col-12 .box {
     width: 100%;
   }
-  #Browse .col-md-12 .box .btn {
+  #Browse .col-12 .box .btn {
     width: 225px;
     margin: 5px 15px;
   }
@@ -203,7 +206,7 @@ header .btn {
     align-self: start;
     width: 100%;
   }
-  #Browse .col-md-12 .box .btn {
+  #Browse .col-12 .box .btn {
     margin: 10px 20px;
     width: 100%;
   }
