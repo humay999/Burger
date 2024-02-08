@@ -114,6 +114,14 @@ header .btn {
   font-size: 20px;
   border-radius: 5px;
 }
+@media (min-width: 350px) and (max-width: 992px) {
+  #thehome .textbox {
+    text-align: center;
+  }
+  #thehome .col-lg-6 {
+    padding-top: 50px;
+  }
+}
 
 #howit h1 {
   font-weight: 700;
