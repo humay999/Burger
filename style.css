@@ -172,7 +172,13 @@ header .btn {
   color: #3cc1d8;
   text-decoration-line: underline;
 }
-#browse .col-12 .box .btn {
+#browse .col-md-12 .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+#browse .col-md-12 .box .btn {
   font-size: 18px;
   border: 0.5px solid #bdbdbd;
   padding: 15px;
@@ -180,7 +186,7 @@ header .btn {
   margin: 0 20px;
   border-radius: 5px;
 }
-#browse .bgc {
+#browse .col-md-12 .box .bgc {
   background-color: #3cc1d8;
   color: white;
 }
