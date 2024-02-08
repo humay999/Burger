@@ -1,11 +1,15 @@
 #beautiful
     background-color: #f4fafb
     .box
+        display: flex
+        justify-content: start
+        align-items: start
+        flex-direction: column
         h1
             font-weight: 700
             font-size: 68px
-        span
-            color: #37b7c3
+            span
+                color: #37b7c3
         h5
             color: #676f8b
             font-size: 20px
@@ -17,8 +21,17 @@
             border-radius: 5px
             background-color: #38b6c1
             color: #ffff
-        .imgbox
+        .star
             width: 120px
             margin: 20px 0 10px
-        h4
-            font-size: 20px
+    h4
+        font-size: 20px
+        span
+            color: #37b7c3
+    @media ( min-width: 350px) and (max-width: 992px)
+        .box
+            text-align: center
+            .btn,.star,h4
+                 align-self: center
+        .col-lg-6
+            padding-top: 50px

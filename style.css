@@ -45,11 +45,17 @@ header .btn {
 #beautiful {
   background-color: #f4fafb;
 }
+#beautiful .box {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
 #beautiful .box h1 {
   font-weight: 700;
   font-size: 68px;
 }
-#beautiful .box span {
+#beautiful .box h1 span {
   color: #37b7c3;
 }
 #beautiful .box h5 {
@@ -65,12 +71,26 @@ header .btn {
   background-color: #38b6c1;
   color: white;
 }
-#beautiful .box .imgbox {
+#beautiful .box .star {
   width: 120px;
   margin: 20px 0 10px;
 }
-#beautiful .box h4 {
+#beautiful h4 {
   font-size: 20px;
+}
+#beautiful h4 span {
+  color: #37b7c3;
+}
+@media (min-width: 350px) and (max-width: 992px) {
+  #beautiful .box {
+    text-align: center;
+  }
+  #beautiful .box .btn, #beautiful .box .star, #beautiful .box h4 {
+    align-self: center;
+  }
+  #beautiful .col-lg-6 {
+    padding-top: 50px;
+  }
 }
 
 #thehome {
