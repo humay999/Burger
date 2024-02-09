@@ -18,7 +18,7 @@
             display: flex
             justify-content: center
             align-items: center
-            padding: 50px 0
+            padding: 30px 0
             .btn
                 font-size: 18px
                 border: 0.5px solid #bdbdbd
@@ -30,13 +30,18 @@
                 background-color: #3cc1d8
                 color: #ffff
     .col-lg-6
+        padding-bottom: 15px
         .box
             background-color: #ffffff
             padding: 20px
             .imgbox
                 border-radius: 10px
+                width: 120px
             .textbox
+                margin-left: 15px
                 .minibox
+                    display: flex
+                    justify-content: space-between
                     h2
                         font-size: 22px
                         font-weight: 700
@@ -58,30 +63,24 @@
                         color: #ffff
                         padding: 7px 20px
     .menu
-        padding: 17px 53px
-        margin-top: 50px
-
-    @media (min-width: 992px)
-        .imgbox
-            align-self: center
-            width: 150px
-    @media (min-width: 768px) and (max-width: 991px)
-        .imgbox
-            align-self: flex-start
-            width: 125px
-    @media (min-width: 576px) and (max-width: 767px)
-        .col-12
+        background-color: #3cc1d8
+        padding: 15px 45px
+        color: #ffff
+        margin-top: 20px
+    @media ( min-width: 479px ) and (max-width: 767px)
+        .col-md-12
             .box
-                width: 100%
+                display: flex
+                flex-flow: wrap
                 .btn
-                    width: 225px
-                    margin: 5px 15px
-    @media (max-width: 575px)
-        .imgbox
-            align-self: start
-            width: 100%
-        .col-12
+                    width: 185px
+                    margin-top: 15px
+        .col-lg-6
             .box
-                .btn
-                    margin: 10px 20px
-                    width: 100%
+                .textbox
+                    margin-top: 10px
+                    .minibox
+                        display: flex
+                        flex-direction: column
+                        h2
+                            margin: 15px 0
