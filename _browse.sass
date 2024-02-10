@@ -54,7 +54,6 @@
                 line-height: 1.2
                 color: #232f4285
             .add
-                display: flex
                 input
                     border: 1px solid #e1e1e1
                     background-color: #e9e9e9
@@ -81,6 +80,38 @@
                 .imgbox
                     width: auto
                 .textbox
+                    width: 221px
                     .minibox
                         display: flex
                         flex-direction: column
+                        h2
+                            margin: 15px 0
+                    .add
+                        input
+                            height: 40px
+                            margin-top: 17px
+    @media (min-width: 350px) and ( max-width: 576px)
+        .col-md-12
+            .box
+                display: flex
+                flex-direction: column
+                .btn
+                    width: 300px
+                    margin: 10px 0
+        .col-lg-6
+            .box
+                .imgbox
+                    width: auto
+                .textbox
+                    .minibox
+                        display: flex
+                        flex-direction: column
+                        h2
+                            margin: 15px 0
+                    .add
+                        input
+                            height: 45px
+                            margin-right: 20px
+                            margin-top: 7px
+                        .btn
+                            width: auto
