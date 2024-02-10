@@ -336,6 +336,14 @@ header .btn {
   background-color: #38b6c1;
   padding: 13px 34px;
 }
+@media (min-width: 300px) and (max-width: 992px) {
+  #call .textbox {
+    text-align: center;
+  }
+  #call .col-lg-6 {
+    padding-bottom: 30px;
+  }
+}
 
 #business .textbox h1 {
   font-size: 60px;
