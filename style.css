@@ -245,16 +245,15 @@ header .btn {
     flex-flow: wrap;
   }
   #browse .col-md-12 .box .btn {
-    width: 200px;
+    width: 180px;
     margin-top: 15px;
   }
   #browse .col-lg-6 .box .imgbox {
     width: auto;
   }
-  #browse .col-lg-6 .box .imgbox .textbox {
+  #browse .col-lg-6 .box .textbox .minibox {
     display: flex;
     flex-direction: column;
-    width: auto;
   }
 }
 
