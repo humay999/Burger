@@ -81,7 +81,7 @@ header .btn {
 #beautiful h4 span {
   color: #37b7c3;
 }
-@media (min-width: 350px) and (max-width: 992px) {
+@media (min-width: 300px) and (max-width: 992px) {
   #beautiful .box {
     text-align: center;
   }
