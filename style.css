@@ -291,6 +291,40 @@ header .btn {
     width: auto;
   }
 }
+@media (max-width: 350px) {
+  #browse .col-md-12 .box {
+    display: flex;
+  }
+  #browse .col-md-12 .box .btn {
+    width: 80px;
+    margin: 0 10px;
+  }
+  #browse .col-lg-6 .box {
+    display: flex;
+    flex-direction: column;
+  }
+  #browse .col-lg-6 .box .imgbox {
+    width: auto;
+  }
+  #browse .col-lg-6 .box .textbox {
+    margin: 10px 5px;
+  }
+  #browse .col-lg-6 .box .textbox .minibox {
+    display: flex;
+    flex-direction: column;
+  }
+  #browse .col-lg-6 .box .textbox .minibox h2 {
+    margin: 15px 0;
+  }
+  #browse .col-lg-6 .box .textbox .add input {
+    height: 45px;
+    margin-right: 20px;
+    margin-top: 1px;
+  }
+  #browse .col-lg-6 .box .textbox .add .btn {
+    width: auto;
+  }
+}
 
 #checkout .textbox h1 {
   font-size: 48px;
