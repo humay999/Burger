@@ -114,7 +114,7 @@ header .btn {
   font-size: 20px;
   border-radius: 5px;
 }
-@media (min-width: 350px) and (max-width: 992px) {
+@media (min-width: 300px) and (max-width: 992px) {
   #thehome .textbox {
     text-align: center;
   }
