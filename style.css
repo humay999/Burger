@@ -142,7 +142,7 @@ header .btn {
   color: #676f8b;
   line-height: 1.3;
 }
-@media (min-width: 350px) and (max-width: 992px) {
+@media (min-width: 300px) and (max-width: 992px) {
   #howit .box {
     display: flex;
     justify-content: center;
