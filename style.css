@@ -345,6 +345,9 @@ header .btn {
   #call .textbox {
     text-align: center;
   }
+  #call .col-lg-6 {
+    padding-bottom: 30px;
+  }
 }
 
 #business .textbox {
