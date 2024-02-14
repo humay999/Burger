@@ -301,6 +301,11 @@ header .btn {
     text-align: center;
   }
 }
+@media (min-width: 300px) {
+  #checkout .textbox {
+    text-align: center;
+  }
+}
 
 #call {
   background-color: #f1f8f9;
