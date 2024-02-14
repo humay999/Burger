@@ -92,6 +92,14 @@ header .btn {
     padding-top: 50px;
   }
 }
+@media (max-width: 350px) {
+  #beautiful .box {
+    text-align: center;
+  }
+  #beautiful .box .btn, #beautiful .box .star, #beautiful .box h4 {
+    align-self: center;
+  }
+}
 
 #thehome {
   background-color: #f1f8f9;
