@@ -99,6 +99,9 @@ header .btn {
   #beautiful .box .btn, #beautiful .box .star, #beautiful .box h4 {
     align-self: center;
   }
+  #beautiful .col-lg-6 {
+    padding-top: 50px;
+  }
 }
 
 #thehome {
