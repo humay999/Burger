@@ -330,6 +330,11 @@ header .btn {
     padding-bottom: 30px;
   }
 }
+@media (max-width: 350px) {
+  #call .textbox {
+    text-align: center;
+  }
+}
 
 #business .textbox {
   height: 100%;
